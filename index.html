@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaid Khan | Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+      <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+      </div>
+      <div class="loader-text">
+        <span class="loader-letter">L</span>
+        <span class="loader-letter">O</span>
+        <span class="loader-letter">A</span>
+        <span class="loader-letter">D</span>
+        <span class="loader-letter">I</span>
+        <span class="loader-letter">N</span>
+        <span class="loader-letter">G</span>
+        <span class="loader-letter">.</span>
+        <span class="loader-letter">.</span>
+        <span class="loader-letter">.</span>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="loading-progress"></div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="logo">
+          <h1>Zaid Khan</h1>
+        </div>
+        <div class="header-right">
+          <div class="cv-download-header">
+            <a
+              href="resume/My Professional CV.pdf"
+              download
+              class="btn btn-primary"
+              ><i class="fas fa-download"></i> Download CV</a
+            >
+          </div>
+          <div class="menu-toggle" id="menu-toggle">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="theme-toggle-item">
+              <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-sun"></i>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="hero-subtitle">Hello, I'm</h2>
+          <h1 class="hero-title">Zaid Khan</h1>
+          <h3 class="hero-description">HTML, CSS & JavaScript Developer</h3>
+          <p class="hero-text">
+            I build responsive websites and web applications with clean and
+            efficient code.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+            <a href="./cv.html" class="btn btn-primary">CV</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/Zaid-Anime.png"
+            alt="Zaid Khan - Anime Style"
+            class="hero-img anime-style"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="images/Zaid-Anime.png"
+              alt="Zaid Khan - Profile Picture"
+              class="profile-img"
+            />
+          </div>
+          <div class="about-info">
+            <h3>Hi, I'm Zaid Khan</h3>
+            <p>
+              I'm a 16-year-old passionate front-end web developer from Karachi,
+              Sindh, Pakistan. I love creating responsive and user-friendly
+              websites that leave a lasting impression.
+            </p>
+            <p>
+              Despite my young age, I have developed a strong foundation in web
+              development and am constantly improving my skills through practice
+              and learning new technologies.
+            </p>
+            <p>
+              My goal is to create beautiful, functional, and accessible web
+              experiences that help businesses and individuals achieve their
+              online objectives.
+            </p>
+            <div class="about-details">
+              <div class="detail-item">
+                <span class="detail-title">Name:</span>
+                <span class="detail-value">Zaid Khan</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-title">Email:</span>
+                <span class="detail-value">zaidbinasif4@gmail.com</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-title">Age:</span>
+                <span class="detail-value">16 Years</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-title">From:</span>
+                <span class="detail-value">Karachi, Sindh, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+          <div class="skills-group">
+            <h3 class="skills-group-title">Frontend Development</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <h4 class="skill-name">HTML5</h4>
+                  <h4 class="skill-percentage">90%</h4>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <h4 class="skill-name">CSS3</h4>
+                  <h4 class="skill-percentage">85%</h4>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <h4 class="skill-name">JavaScript</h4>
+                  <h4 class="skill-percentage">80%</h4>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/logo/Netflix.png" alt="Netflix Clone Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://mr-solo-developer.github.io/Netflix/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/Mr-Solo-Developer/Netflix"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Netflix Clone</h3>
+              <p class="project-description">
+                A responsive Netflix clone website with modern UI, video
+                previews, and a user-friendly interface.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <div class="emoji-display">
+                <img
+                  src="images/logo/coin-heads.png"
+                  alt="Coin Heads"
+                  class="game-hand"
+                />
+                <img
+                  src="images/logo/coin-tails.png"
+                  alt="Coin Tails"
+                  class="game-hand"
+                />
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://mr-solo-developer.github.io/Advanced-Head-Tail/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/Mr-Solo-Developer/Advanced-Head-Tail"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Head Tail</h3>
+              <p class="project-description">
+                An interactive coin flip game with animations, score tracking,
+                and sound effects.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/logo/dvago.png" alt="Devago Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://mr-solo-developer.github.io/Devago/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/Mr-Solo-Developer/Devago"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Devago</h3>
+              <p class="project-description">
+                A developer portfolio website showcasing projects, skills, and
+                contact information.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-img">
+              <div class="emoji-display">
+                <img
+                  src="images/logo/rock-emoji.png"
+                  alt="Rock Hand"
+                  class="game-hand"
+                />
+                <img
+                  src="images/logo/paper-emoji.png"
+                  alt="Paper Hand"
+                  class="game-hand"
+                />
+                <img
+                  src="images/logo/scissors-emoji.png"
+                  alt="Scissors Hand"
+                  class="game-hand"
+                />
+              </div>
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://mr-solo-developer.github.io/Advance-Rock-Paper-Scissors-Game/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/Mr-Solo-Developer/Advance-Rock-Paper-Scissors-Game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Rock Paper Scissors</h3>
+              <p class="project-description">
+                A modern take on the classic game with animations, score
+                tracking, and responsive design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+              Feel free to reach out to me for any questions or opportunities!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>zaidbinasif4@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Karachi, Sindh, Pakistan</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/zaid-khan-324a58358/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a
+                href="https://github.com/Mr-Solo-Developer"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Zaid Khan</h3>
+            <p>HTML, CSS & JavaScript Developer</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-links-group">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-links-group">
+              <h4>Social Media</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/Mr-Solo-Developer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/zaid-khan-324a58358/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> Zaid Khan. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <a href="#home" class="scroll-top-btn" id="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
