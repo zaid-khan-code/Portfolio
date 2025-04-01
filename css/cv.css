@@ -29,7 +29,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .cv-actions {

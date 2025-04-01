@@ -1242,6 +1242,23 @@ body.dark-mode .footer-bottom {
     font-size: 1.7rem;
   }
 
+  .about-image {
+    display: none;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-info {
+    text-align: center;
+  }
+
+  .about-details {
+    justify-content: center;
+  }
+
   .menu-toggle {
     display: block;
     z-index: 101;
